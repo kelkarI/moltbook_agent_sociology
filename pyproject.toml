@@ -1,0 +1,20 @@
+[project]
+name = "moltsoc"
+version = "0.1.0"
+description = "Classical sociology lenses on Moltbook (LLM-agent social network)"
+requires-python = ">=3.11"
+dependencies = [
+  "duckdb", "polars", "pyarrow", "huggingface_hub", "datasets", "numpy", "pandas",
+  "python-igraph", "scipy", "statsmodels", "powerlaw", "matplotlib", "ruptures",
+]
+
+[project.optional-dependencies]
+nlp = ["sentence-transformers", "scikit-learn", "datasketch"]
+dev = ["pytest"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/moltsoc"]

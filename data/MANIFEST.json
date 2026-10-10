@@ -1,0 +1,10 @@
+{
+  "_status": "METADATA ONLY. Bulk download blocked by sandbox network policy (huggingface.co -> 403). Revisions not pinned yet.",
+  "primary":    {"repo": "jscmp4/Moltbook", "revision": null,
+                 "hub_rows": {"agent_snapshots": "14.7M", "agents": "103.6K", "comments": "19.7M", "posts": "3.7M"}},
+  "graph":      {"repo": "takschdube/moltbook-dataset", "revision": null,
+                 "card_counts": {"posts_collected": 422355, "comments_collected": 3720917, "agents": 57190,
+                                 "posts_platform_total": 4421175, "comments_platform_total": 13534947}},
+  "crosscheck": {"repo": "SimulaMet/moltbook-observatory-archive", "revision": null,
+                 "hub_rows": {"agents": "182.9K", "comments": "2.6M", "posts": "3.6M", "snapshots": "4.7K", "submolts": "15.5K", "word_frequency": "677.3K"}}
+}
